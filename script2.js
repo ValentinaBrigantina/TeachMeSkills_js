@@ -7,13 +7,13 @@ const files = [
     'script.js',
     'style.css',
     'summary.pdf',
-    'Harry_Potter.pdf',
+    'Harry.Potter.pdf',
     'report.pdf',
   ];
   
   let pdfFiles = files.reduce((acc, file) => {
-    const [, ext]= file.split('.');
-    if (ext === 'pdf') {
+    const arr = file.split('.');
+    if (arr[arr.length - 1] === 'pdf') {
       acc.push(file)
     }
     return acc;
