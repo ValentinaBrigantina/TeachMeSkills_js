@@ -1,0 +1,62 @@
+body {
+    margin: 50px;
+}
+
+.fieldInfo {
+    width: 300px;
+    height: 26px;
+    margin: 4px auto;
+    padding: 4px;
+    border: solid 1px rgb(192, 165, 114);
+    border-radius: 4px;
+    font-weight: 200;
+    color: rgb(49, 37, 13);
+    text-align: center;
+    line-height: 26px;
+}
+
+.fieldInfo > p, .warningMessage > p {
+    margin: 0;
+}
+
+.inputName, .inputAge, .btnAddNewUser, .btnConfirm {
+    height: 26px;
+    margin: 10px auto;
+    padding: 4px;
+    border: solid 1px rgb(192, 165, 114);
+    border-radius: 4px;
+    display: block;
+}
+
+.inputName, .inputAge {
+    width: 230px;
+    color: rgb(49, 37, 13);
+}
+
+.inputName:focus, .inputAge:focus {
+    outline: solid 1px rgb(192, 165, 114);
+}
+
+.btnAddNewUser, .btnConfirm {
+    cursor: pointer;
+    width: 210px;
+    background-color: rgb(192, 165, 114);
+    color: ivory;
+}
+
+.btnAddNewUser:hover, .btnConfirm:hover {
+    background-color: rgb(209, 173, 106);
+    color: rgb(54, 40, 13);
+    border: solid 1px rgb(192, 165, 114);
+}
+
+.warningMessage {
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(241, 214, 214);
+    color: rgb(71, 71, 71);
+    text-align: center;
+    margin: 10px auto;
+    line-height: 50px;
+}
